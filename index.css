@@ -1,0 +1,143 @@
+/*exercice1*/
+
+h1{
+    color: red;
+    text-align:center ;
+    text-shadow: 10px 10px 10px red;
+}
+
+h2{
+    text-decoration: underline;
+}
+article p{
+    color: blue;
+    font-style: italic;
+}
+section h2{
+    color: green;
+}
+
+
+
+/*exercice3*/
+.container{
+    display: flex;
+    background-color: aqua;
+}
+.menu ul li{
+    display: inline;
+    margin-left: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(168, 13, 215);
+
+}
+
+.menu1 {
+    position: relative;
+    right: 40px;
+}
+.menu2{
+    position: relative;
+    left: 900px;
+}
+/*exercice4*/
+
+.items{
+    position: relative;
+    top:  40px;
+    height: 400px;
+    width: 70%;
+    border: solid;
+}
+.items1{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+   
+}
+
+.items2{
+    background-color: rgb(0, 255, 34);
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 691px;
+    bottom: 100px;
+}
+.items3{
+    background-color: rgb(255, 145, 0);
+    width: 150px;
+    height: 100px;
+}
+.items4{
+    background-color: rgb(255, 0, 204);
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 691px;
+    bottom: 100px;
+}
+.items5{
+    background-color: rgb(0, 255, 242);
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    
+}
+/*exercice5*/
+#boite{
+    background-color: red;
+    position: relative;
+    top:200px;
+    width: 100px;
+    height: 100px;
+    animation: animate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+   
+}
+/*exercice2*/
+.boxes{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    top: 300px; left: 120px;
+    transform: translate(100px,100px);
+    transform: rotate(40deg);
+
+}
+@media  (max-width:1000px) {
+    .boxes{
+        background-color: rgb(43, 255, 0);
+    }
+}
+@media (max-width:700px) {
+    .boxes{
+        background-color: red;
+    }
+}
+
+
+
